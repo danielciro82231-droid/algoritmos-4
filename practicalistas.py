@@ -13,10 +13,9 @@ class lista:
 
        if self.cabeza == None:
             self.cabeza == nodo
-            self.cola = nodo
 
        else:
-          self.cola.siguiente = Nodo
-          self .cola = nodo
-
-               
+        actual = self.cabeza
+        while actual.siguiente:
+            actual = actual.siguiente
+        actual.siguiente = nodo           
