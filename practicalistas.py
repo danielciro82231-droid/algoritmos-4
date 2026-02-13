@@ -8,7 +8,7 @@ class lista:
     def __init__(self):
         self.cabeza = None
 
-    def agregarAlFinal(self, documento, nombre):
+    def agregarAl(self, documento, nombre):
        nodo_ Nodo(documento, nombre)
 
        if self.cabeza == None:
